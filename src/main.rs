@@ -5,7 +5,7 @@ struct Book{
     author: &'static str,
     title: &'static str,
     available_books: &'static str,
-}
+} ,
 #[derive(Debug, Clone, Copy)]
 pub struct User{
      id: u8,

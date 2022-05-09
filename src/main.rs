@@ -149,8 +149,6 @@ fn main() {
     library.add_book("sharon", "principle of physics", "1000");
     library.add_book("Thomas", "complex analysis", "900");
     println!("Books - {:#?}", library.books);
-    // library.delete_book(1);
-    // println!("Books - {:#?}", library.books);
     library.add_user("sharon", "sharon", "sharon");
     println!("Users - {:#?}", library.users);
     library.borrow_book(0, 1);
